@@ -11,4 +11,43 @@ body{
     }
 }
 
-@media screen and (max-width: )
+
+    
+
+
+@media screen and (max-width: 767px){
+    .ans{
+
+        Width: 100px;
+        height: 50px;
+        margin-bottom: 25px;
+        font-size: 30px;
+        border-radius: 5px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-widht: 1599px){
+    .ans{
+        border: 1px solid black;
+        width: 100px;
+        height: 70px;
+        font-size: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: center;
+    }
+}
+
+.ans{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px
+}
+
